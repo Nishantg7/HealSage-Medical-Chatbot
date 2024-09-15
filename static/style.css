@@ -1,9 +1,20 @@
 body,html{
 	height: 100%;
 	margin: 0;
-	background: rgb(44, 47, 59);
-   background: -webkit-linear-gradient(to right, rgb(40, 59, 34), rgb(54, 60, 70), rgb(32, 32, 43));
-	background: linear-gradient(to right, rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));
+	background: linear-gradient(
+		148deg,
+		hsl(148deg 100% 35%) 0%,
+		hsl(157deg 100% 34%) 10%,
+		hsl(168deg 100% 32%) 20%,
+		hsl(182deg 100% 32%) 30%,
+		hsl(194deg 100% 38%) 40%,
+		hsl(202deg 100% 44%) 50%,
+		hsl(208deg 100% 48%) 60%,
+		hsl(212deg 100% 50%) 70%,
+		hsl(216deg 100% 50%) 80%,
+		hsl(222deg 100% 50%) 90%,
+		hsl(232deg 100% 45%) 100%
+	);
 }
 
 .chat{
